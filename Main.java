@@ -1,5 +1,7 @@
 public class Main{
     public static void main(String[] args){
-        System.out.println("Quiz App");
+        QuestionService questionService = new QuestionService();
+        questionService.playQuiz();
+        questionService.printScore();
     }
 }
